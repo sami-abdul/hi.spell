@@ -1,7 +1,7 @@
 {
-  "name": "hello-blockstack",
-  "version": "0.0.0",
-  "description": "A simple Blockstack app using ReactJS",
+  "name": "hi.spell",
+  "version": "0.0.1",
+  "description": "A ridiculously simple and aesthetically elegant/minimal experience reading news on crypto/blockchain.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blockstack/hello-blockstack.git"
+    "url": "git+https://github.com/sami-abdul/hi.spell"
   },
   "bugs": {
-    "url": "https://github.com/blockstack/hello-blockstack/issues"
+    "url": "https://github.com/sami-abdul/hi.spell/issues"
   },
-  "homepage": "https://github.com/blockstack/hello-blockstack#readme",
-  "author": "",
+  "homepage": "https://github.com/sami-abdul/hi.spell#readme",
+  "author": "Abdul Sami",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.24.1",
