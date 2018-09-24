@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { isSignInPending } from 'blockstack';
 
 import { 
-  avatarFallbackImage,
+  AVATAR_FALLBACK_IMAGE,
   profile,
   updateProfile 
 } from '../modules/ProfileManager'
@@ -23,9 +23,9 @@ export default class Dashboard extends Component {
       !isSignInPending() ?
       <div className="panel-welcome" id="section-2">
         <div className="avatar-section">
-          <img src={ profile.avatarUrl() ? profile.avatarUrl() : avatarFallbackImage } className="img-rounded avatar" id="avatar-image" />
+          <img src={ profile.avatarUrl() ? profile.avatarUrl() : AVATAR_FALLBACK_IMAGE } className="img-rounded avatar" id="avatar-image" />
         </div>
-        <h1>Hello, <span id="heading-name">{ profile.name() ? profile.name() : 'Nameless Person' }</span>!</h1>
+        <h1><span id="heading-name">{ profile.name() ? profile.name() : 'Nameless Person' }</span>!</h1>
         <p className="lead">
           <button
             className="btn btn-primary btn-lg"

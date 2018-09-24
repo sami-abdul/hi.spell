@@ -29,7 +29,8 @@ export default class App extends Component {
     return (
       <div className="site-wrapper">
         <div className="site-wrapper-inner">
-          { !isUserSignedIn() ?
+          { 
+            !isUserSignedIn() ?
             <SignIn handleSignIn={ this.handleSignIn } />
             : <Dashboard handleSignOut={ this.handleSignOut } />
           }

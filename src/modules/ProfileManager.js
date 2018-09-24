@@ -3,14 +3,14 @@ import {
     Person,
 } from 'blockstack/lib';
 
-export const avatarFallbackImage = 'https://s3.amazonaws.com/onename/avatar-placeholder.png';
+export const AVATAR_FALLBACK_IMAGE = 'https://s3.amazonaws.com/onename/avatar-placeholder.png';
 
 export var profile = {
     name() {
         return 'Anonymous';
     },
     avatarUrl() {
-        return avatarFallbackImage;
+        return AVATAR_FALLBACK_IMAGE;
     }
 }
 
