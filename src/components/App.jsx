@@ -1,6 +1,6 @@
 import React, { Component, Link } from 'react';
-import Profile from './Profile.jsx';
-import Signin from './Signin.jsx';
+import Dashboard from './Dashboard.jsx';
+import SignIn from './SignIn.jsx';
 import {
   isSignInPending,
   isUserSignedIn,
@@ -30,8 +30,8 @@ export default class App extends Component {
       <div className="site-wrapper">
         <div className="site-wrapper-inner">
           { !isUserSignedIn() ?
-            <Signin handleSignIn={ this.handleSignIn } />
-            : <Profile handleSignOut={ this.handleSignOut } />
+            <SignIn handleSignIn={ this.handleSignIn } />
+            : <Dashboard handleSignOut={ this.handleSignOut } />
           }
         </div>
       </div>
