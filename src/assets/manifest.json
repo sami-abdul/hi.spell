@@ -1,7 +1,7 @@
 {
-  "name": "Hello, Blockstack",
+  "name": "hi.spell",
   "start_url": "localhost:8080",
-  "description": "A simple demo of Blockstack Auth",
+  "description": "A ridiculously simple and aesthetically elegant/minimal experience reading news on crypto/blockchain.",
   "icons": [{
     "src": "http://localhost:8080/icon-192x192.png",
     "sizes": "192x192",
