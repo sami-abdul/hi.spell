@@ -1,5 +1,5 @@
 import React, { Component, Link } from 'react';
-import Dashboard from './Dashboard.jsx';
+import Home from './Home.jsx';
 import SignIn from './SignIn.jsx';
 import {
   isSignInPending,
@@ -32,7 +32,7 @@ export default class App extends Component {
           { 
             !isUserSignedIn() ?
             <SignIn handleSignIn={ this.handleSignIn } />
-            : <Dashboard handleSignOut={ this.handleSignOut } />
+            : <Home handleSignOut={ this.handleSignOut } />
           }
         </div>
       </div>

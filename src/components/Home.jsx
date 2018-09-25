@@ -7,7 +7,7 @@ import {
   updateProfile 
 } from '../modules/ProfileManager'
 
-export default class Dashboard extends Component {
+export default class Home extends Component {
   constructor(props) {
   	super(props);
 
